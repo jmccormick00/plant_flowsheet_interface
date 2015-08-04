@@ -1,0 +1,7 @@
+create a tool state class.
+
+The tool class is a state machine.
+
+when the right mouse button is pressed, it calls the state's revert() 
+function that undoes any thing neccessary and then the tool goes back one state.
+If the state is the first one, then the tool just starts the first one over. 
